@@ -2,7 +2,7 @@
 運用 Node.js 與 MySQL 開發的智慧食譜推薦系統，具備符合 BCNF 正規化標準的資料庫架構與會員管理機制
 
 ### 概念呈現影片
-[![系統展示影片](https://img.youtube.com/vi/pK_yH8D93wc/maxresdefault.jpg)](https://youtu.be/pK_yH8D93wc)
+[![系統展示影片](https://img.youtube.com/vi/pK_yH8D93wc/0.jpg)](https://youtu.be/pK_yH8D93wc)
 
 ## Overview
 透過我們所建立之查詢系統及資料庫解決使用者運用食材上的困難，將冰箱中的食材組合成一道完美的佳餚，並給予使用者食譜教予製作過程[cite: 1]。
