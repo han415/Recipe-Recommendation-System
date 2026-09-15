@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="search.css">
+    <script src="search.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-area">
+        <h1 id="recipe-title">SEARCH RECIPE</h1>
+        <img src="search.PNG" alt="person" width="200px" height="200px" style="opacity: 0.8;">
+        <div id="error-msg-area">
+          <p id="search-error-msg">empty ingredientID</p>
+        </div>
+        <form id="search-area">
+          <input type="text" id="ingredientID" class="search-msg" name="ingredientID" placeholder="IngredientID"><br>
+          <fieldset id="food_habit">
+            <legend>選擇你的飲食習慣</legend>
+            <div>
+                <input type="checkbox" id="all" name="food_habit_check" value="all" checked/>
+                <label for="all">葷</label>
+            </div>
+            <div>
+              <input type="checkbox" id="vegetarian" name="food_habit_check" value="vegetarian" />
+              <label for="vegetarian">一般素</label>
+            </div>
+            <div>
+              <input type="checkbox" id="lacto-vegetarian" name="food_habit_check" value="lacto-vegetarian" />
+              <label for="lacto-vegetarian">奶素</label>
+            </div>
+            <div>
+                <input type="checkbox" id="ovo-vegetarian" name="food_habit_check" value="ovo-vegetarian" />
+                <label for="ovo-vegetarian">蛋素</label>
+            </div>
+            <div>
+                <input type="checkbox" id="vegan" name="food_habit_check" value="vegan" />
+                <label for="vegan">全素</label>
+            </div>
+          </fieldset>  
+          <input type="submit" value="Saerch" id="search-submit" onmouseover="this.style.backgroundColor='#faebd7';"onmouseout="this.style.backgroundColor='#e8acac'">
+        </form>
+    </div>
+</body>
+</html>

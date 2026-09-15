@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="change.css">
+    <script src="change.js" defer></script>
+    <title>Login</title>
+</head>
+<body>
+    <div class="main-area">
+        <h1 id="change-title">CHANGE SETTING</h1>
+        <img src="person.PNG" alt="person" width="100px" height="100px" style="opacity: 0.8;">
+        <div id="error-msg-area">
+          <p id="change-error-msg">Wrong userID<br>or password</p>
+        </div>
+        <form id="change-area">
+          <input type="text" id="userID" class="change-msg" name="userID" placeholder="UserID">
+          <input type="password" id="password" class="change-msg" name="password" placeholder="Password"><br>
+          <input type="text" id="username" class="change-msg" name="username" placeholder="Username">
+          <fieldset id="food_habit">
+            <legend>選擇你的飲食習慣</legend>
+            <div>
+                <input type="checkbox" id="all" name="food_habit_check" value="all" />
+                <label for="all">葷</label>
+            </div>
+            <div>
+              <input type="checkbox" id="vegetarian" name="food_habit_check" value="vegetarian" />
+              <label for="vegetarian">一般素</label>
+            </div>
+            <div>
+              <input type="checkbox" id="lacto-vegetarian" name="food_habit_check" value="lacto-vegetarian" />
+              <label for="lacto-vegetarian">奶素</label>
+            </div>
+            <div>
+                <input type="checkbox" id="ovo-vegetarian" name="food_habit_check" value="ovo-vegetarian" />
+                <label for="ovo-vegetarian">蛋素</label>
+            </div>
+            <div>
+                <input type="checkbox" id="vegan" name="food_habit_check" value="vegan" />
+                <label for="vegan">全素</label>
+            </div>
+          </fieldset>          
+          <input type="submit" value="CHANGE" id="change-submit" onmouseover="this.style.backgroundColor='#faebd7';"onmouseout="this.style.backgroundColor='#e8acac'">
+        </form>
+    </div>
+</body>
+</html>

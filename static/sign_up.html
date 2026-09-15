@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign_up.css">
+    <script src="sign_up.js" defer></script>
+    <title>Login</title>
+</head>
+<body>
+    <div class="main-area">
+        <h1 id="sign-up-title">SIGN UP</h1>
+        <img src="person.PNG" alt="person" width="150px" height="150px" style="opacity: 0.8;">
+        <div id="error-msg-area">
+          <p id="signup-error-msg">empty username<br>or password</p>
+        </div>
+        <form id="signup-area">
+          <input type="text" id="username" class="signup-msg" name="username" placeholder="Username">
+          <input type="password" id="password" class="signup-msg" name="password" placeholder="Password">
+          <fieldset id="food_habit">
+            <legend>選擇你的飲食習慣</legend>
+            <div>
+                <input type="checkbox" id="all" name="food_habit_check" value="all" />
+                <label for="all">葷</label>
+            </div>
+            <div>
+              <input type="checkbox" id="vegetarian" name="food_habit_check" value="vegetarian" />
+              <label for="vegetarian">一般素</label>
+            </div>
+            <div>
+              <input type="checkbox" id="lacto-vegetarian" name="food_habit_check" value="lacto-vegetarian" />
+              <label for="lacto-vegetarian">奶素</label>
+            </div>
+            <div>
+                <input type="checkbox" id="ovo-vegetarian" name="food_habit_check" value="ovo-vegetarian" />
+                <label for="ovo-vegetarian">蛋素</label>
+            </div>
+            <div>
+                <input type="checkbox" id="vegan" name="food_habit_check" value="vegan" />
+                <label for="vegan">全素</label>
+            </div>
+          </fieldset>          
+          <input type="submit" value="SIGN UP" id="signup-submit" onmouseover="this.style.backgroundColor='#faebd7';"onmouseout="this.style.backgroundColor='#e8acac'">
+        </form>
+    </div>
+</body>
+</html>

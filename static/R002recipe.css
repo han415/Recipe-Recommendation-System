@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+html{
+    height:100%;
+}
+
+body{
+    height:100%;
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: rgb(94,65,65);
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    /* background-color: #faf2ee; */
+    background-image: url('fruit.jpeg') ;
+}
+
+.main-area{
+    height:70%;
+    width: 80%;
+    margin: 0;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border: 1px solid rgb(94, 65, 65);
+    background-color: rgba(255, 255, 255, 0.743);
+    /* background-image: url('fruit.jpeg') ; */
+    box-shadow: 1px 1px 2px 2px rgba(94, 65, 65, 0.505);
+    color: rgb(94, 65, 65);
+    font-weight: bold;
+}
+
+#table_id_2{
+    padding: 10px;
+    background: rgba(215, 202, 202, 0.702);
+    position: absolute;
+    width: 900px;
+    /* margin-left: 15px;
+    margin-top: 100px; */
+}
+
+.main-area a{
+    height: 90%;
+    width: 95%;
+}
+
+#title{
+    background-color: #d8baba;
+}
+
+table,td{
+    border: 1px solid rgb(169, 131, 131);
+}
+
+thead,tfoot{
+    background-color: #b28f8f;
+    color: rgb(73, 54, 54);
+}

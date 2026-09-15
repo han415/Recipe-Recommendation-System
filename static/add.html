@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="add.css">
+    <script src="add.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-area">
+        <h1 id="add-title">Add Your Recipe</h1>
+        <div id="error-msg-area">
+          <p id="add-error-msg">Something Empty</p>
+        </div>
+        <form id="add-area">
+          <input type="text" id="rname" class="add-msg" name="rname" placeholder="Recipe Name"><br>
+          <input type="text" id="ringredient" class="add-msg" name="ringredient" placeholder="Recipe Ingredient(請以逗號分隔)"><br>
+          <input type="text" id="rmethod" class="add-msg" name="rmethod" placeholder="Recipe Method">
+        </form>
+        <input type="submit" value="OK!" id="add-submit" onmouseover="this.style.backgroundColor='#faebd7';"onmouseout="this.style.backgroundColor='#e8acac'">
+    </div>
+</body>
+</html>

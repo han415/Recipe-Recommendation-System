@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+html{
+    height:100%;
+}
+
+body{
+    height:100%;
+    font-family: 'Fuzzy Bubbles', cursive;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    /* background-color: #faf2ee; */
+    background-image: url('fruit.jpeg') ;
+}
+
+.main-area{
+    height:70%;
+    width: 60%;
+    margin: 0;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border: 1px solid rgb(94, 65, 65);
+    background-color: rgba(255, 255, 255, 0.743);
+    /* background-image: url('fruit.jpeg') ; */
+    box-shadow: 1px 1px 2px 2px rgba(94, 65, 65, 0.505);
+    color: rgb(94, 65, 65);
+    font-weight: bold;
+}
+
+.main-area h1{
+    /* background-color: #fff; */
+    display: block;
+    position: absolute;
+    margin-bottom: 500px;
+}
+
+#error-msg-area{
+    display: block;
+    position: absolute;
+    height: 10%;
+    width: 40%;
+    padding: 1px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border: 2px dashed rgba(94, 65, 65, 0.505);
+    background-color: rgba(187, 134, 134, 0.675);
+    opacity: 0;
+    font-size: 25px;
+}
+
+
+#add-area{
+    height: 70%;
+    width: 90%;
+    /* margin-bottom: 50px; */
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: rgb(94, 65, 65);
+}
+
+#add-area p{
+    text-align: center;
+    color: rgb(54, 39, 15);
+}
+
+.add-msg::placeholder{
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.add-msg{
+    background-color: rgb(255, 248, 232);
+    border: none;
+    padding: 5px;
+    margin: 5px;
+ }
+
+#rname{
+    border: solid 2px rgba(99, 74, 57, 0.459);
+    width: 200px;
+}
+
+#ringredient{
+    border: solid 2px rgba(99, 74, 57, 0.459);
+    width: 300px;
+}
+
+#rmethod{
+    border: solid 2px rgba(99, 74, 57, 0.459);
+    width: 748px;
+    height: 300px;
+}
+
+#add-submit{
+    position: absolute;
+    width: 40%;
+    margin-top: 478px;
+    padding: 3px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: rgb(75, 37, 37);
+    background-color: #e8acac;
+    border:2px solid #d09f8694;
+    cursor: pointer;
+}
